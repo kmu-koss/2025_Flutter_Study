@@ -23,7 +23,7 @@ class ExpandedExampleApp extends StatelessWidget {
             Container(
               height: 200,
               color: Colors.green,
-              child: const Center(child: Text('height: 200', style: TextStyle(color: Colors.white))),
+              child: const Center(child : Text('height: 200', style: TextStyle(color: Colors.white))),
             ),
             Expanded(
               child: Container(
